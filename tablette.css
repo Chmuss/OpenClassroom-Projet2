@@ -19,20 +19,16 @@
 .photo {
     display: block;
     float: left;
-    width: 218px;
-    height: 100px;
-    
+    width: 180px;
+    height: 80px;
+    padding: 20px 20px 3px 0px;
 }
 .photo2 {
     display: block;
     float: left;
-    width: 100px;
+    width: 60px;
     height: 80px;
-    
-}
-.photo3 {
-    width: 155px;
-    height: 200px;
+    padding: 20px 20px 3px 0px;
 }
 .alignement {
     width: 95%;
