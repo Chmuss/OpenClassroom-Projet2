@@ -99,10 +99,3 @@ a[href="#activites"]:hover {
     width: 100%;
     height: 150px;
 }
-footer {
-    background-color: rgb(224, 223, 223);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-}

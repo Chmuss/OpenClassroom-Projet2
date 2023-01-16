@@ -56,9 +56,6 @@ h4 {
     font-size: 12px;
     margin-top: 20px;
     margin-bottom: 20px;
-    
-}
-.afficher-plus{
     width: 100%;
 }
 p{
@@ -222,11 +219,4 @@ input {
     width: 200px;
     height: 250px;
     border-radius: 10px 10px 0 0;
-}
-footer {
-    background-color: rgb(224, 223, 223);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
 }
