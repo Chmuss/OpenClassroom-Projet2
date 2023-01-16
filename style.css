@@ -1,9 +1,3 @@
-a:visited {
-    color: #0065FC;
-}
-a {
-    text-decoration: none;
-}
 * {
     margin: 5px;
 }
@@ -12,12 +6,11 @@ a {
 }
 .fa-info {
     font-size: 10px;
+    position: relative;
+    bottom: 6px;
 }
 .fa-location-dot {
-    padding: 12px;
-    margin: 0;
     color: black;
-    background-color: #F0F2F6;
 }
 header{
     padding: 20px 20px 20px 20px;
@@ -56,9 +49,6 @@ h4 {
     font-size: 12px;
     margin-top: 20px;
     margin-bottom: 20px;
-    
-}
-.afficher-plus{
     width: 100%;
 }
 p{
@@ -74,12 +64,10 @@ nav a {
     color: white;
 }
 a[href="#hebergements"]:hover {
-    padding-top: 30px;
-    border-top: 2px solid #0065FC;
+    text-decoration: solid overline 6px;
 }
 a[href="#activites"]:hover {
-    padding-top: 30px;
-    border-top: 2px solid #0065FC;
+    text-decoration: solid overline 6px;
 }
 .filtres {
     font-weight: bold;
@@ -110,74 +98,46 @@ a[href="#activites"]:hover {
     grid-template-columns: 10px 300px;
 }
 .section-hebergement {
-    margin: 0;
-    padding: 0;
     width: 65%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     background-color: rgb(224, 223, 223);
-    border-radius: 10px;
-}
-.populaire {
-    margin: 0;
-    padding: 0;
-    width: 28%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: rgb(224, 223, 223);
-    border-radius: 10px;
 }
 .photo {
     display: block;
     float: left;
-    width: 180px;
-    height: 90px;
-    border-radius: 10px 10px 0 0;
-    
-}
- @media screen and (min-width : 1200px) {
-    .photo {
-        width: 200px;
-        height: 95px;
-    }
+    width: 190px;
+    height: 100px;
+    padding: 20px 20px 3px 0px;
 }
 .photo2 {
     display: block;
     float: left;
-    width: 100px;
-    height: 100px;
-    border-radius: 10px 0 0 10px;
-    
+    width: 110px;
+    height: 80px;
+    padding: 20px 20px 3px 0px;
 }
 .section1 {
     background-color: white;
+    padding-left: 20px;
     border-radius: 20px;
-}
-.section2 {
-    background-color: white;
-    border-radius: 20px;
-    width: 90%;
 }
 .section-hebergement-populaire {
-    margin: 0;
-    padding: 0;
+    
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
+    background-color: rgb(224, 223, 223);
 }
 .fa-star {
-    margin: 0;
-    padding: 0;
     color: #0065FC;
     font-size: 10px;
 }
 .filtre-item {
-    margin-right: 15px;
+    margin-right: 20px;
     border: 1px black solid;
     border-radius: 20px;
     padding-left: 10px;
@@ -193,40 +153,4 @@ a[href="#activites"]:hover {
 .form-container {
     height: 40px;
     
-}
-input {
-    margin: 0;
-    height: 40px;
-    
-}
-.bouton_rechercher2 {
-    visibility: hidden;
-}
-.alignement {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.font-plus-populaire{
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-}
-.section-activites {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.photo3 {
-    width: 200px;
-    height: 250px;
-    border-radius: 10px 10px 0 0;
-}
-footer {
-    background-color: rgb(224, 223, 223);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
 }

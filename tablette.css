@@ -1,40 +1,139 @@
-.section-hebergement {
-    width: 100%;
+* {
+    margin: 0;
 }
-.populaire {
-    margin-top: 10px;
+.fa-solid {
+    color: #0065FC;
+}
+.fa-info {
+    font-size: 10px;
+    position: relative;
+    bottom: 6px;
+    
+}
+.fa-location-dot {
+    color: black;
+}
+header{
+    padding: 20px 20px 20px 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between; 
+}
+.logo {
+    width: 61px;
+    height: 29px;
+}
+.menu_entete {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 100%;
+}
+h3 {
+    font-size: 12px;
+}
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+p{
+    font-size: 16px;    
+}
+nav a {
+    margin-left: 30px;
+}
+.bouton_rechercher { 
+    background-color: #0065FC;
+    border-color: #0065FC;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+}
+a[href="#hebergements"]:hover {
+    text-decoration: solid overline 6px;
+}
+a[href="#activites"]:hover {
+    text-decoration: solid overline 6px;
+}
+.filtres {
+    font-weight: bold;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.economique, .familial, .romantique, .animaux {
+    border: 1px black solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
-.section2 {
-    background-color: white;
-    padding-left: 20px;
-    border-radius: 20px;
-    width: 28%;
+.petite-ecriture {
+    font-size: 10px;
+}
+.info {
+    display: grid;
+    grid-template-columns: 10px 300px;
+}
+.section-hebergement {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(224, 223, 223);
 }
 .photo {
     display: block;
     float: left;
-    width: 218px;
+    width: 190px;
     height: 100px;
-    
+    padding: 20px 20px 3px 0px;
 }
 .photo2 {
     display: block;
     float: left;
-    width: 100px;
+    width: 110px;
     height: 80px;
+    padding: 20px 20px 3px 0px;
+}
+.section1 {
+    background-color: white;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.section-hebergement-populaire {
     
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(224, 223, 223);
 }
-.photo3 {
-    width: 155px;
-    height: 200px;
+.populaire {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
-.alignement {
-    width: 95%;
+.fa-star {
+    color: #0065FC;
+    font-size: 10px;
 }
-
