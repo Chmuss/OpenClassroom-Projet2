@@ -1,6 +1,5 @@
-nav {
-    display: flex;
-    justify-content: space-around;
+nav a{
+    margin-left: 0;
 }
 .logo {
     display: block;
@@ -26,22 +25,30 @@ header{
     visibility: visible;
     background-color: #0065FC;
     border-color: #0065FC;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 15px 15px 0px;
     height: 40px;
     margin: 0;
 }
 .fa-magnifying-glass { 
     color: white;
 }
-a[href="#hebergements"]:hover {
-    padding-top: 0px;
+.header-menu-link:hover, .header-menu-link:focus {
+    padding-top: 0;
     border-top: none;
-    border-bottom: 2px solid;
+    border-bottom: 2px solid #0065FC;
 }
-a[href="#activites"]:hover {
-    padding-top: 0px;
-    border-top: none;
-    border-bottom: 2px solid;
+.header-menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.header-menu-link {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #F2F2F2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .filtre-liste {
     display: flex;
@@ -56,11 +63,13 @@ a[href="#activites"]:hover {
     }
 }
 .section-hebergement {
-    width: 100%;
+    width: 96%;
+    padding: 0 10px 0 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
+    background-color: white;
 }
 .section-hebergement-populaire {
     display: flex;
@@ -80,12 +89,18 @@ a[href="#activites"]:hover {
     display: none;
 }
 .section1 {
-    width: 90%;
+    width: 92%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center
     
+}
+.section2 {
+    width: 93%;
+}
+.section1 {
+    width: 97%;
 }
 .section-activites {
     flex-direction: column;
@@ -96,7 +111,7 @@ a[href="#activites"]:hover {
     height: 200px;
 }
 .photo {
-    width: 100%;
+    width: 97%;
     height: 150px;
 }
 footer {
@@ -105,4 +120,10 @@ footer {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+}
+.fa-chart-line {
+    padding-right: 0px;
+}
+.a-propos {
+    margin-left: 5px;
 }

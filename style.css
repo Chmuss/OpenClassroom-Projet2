@@ -3,6 +3,9 @@ a:visited {
 }
 a {
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: black;
 }
 * {
     margin: 5px;
@@ -18,6 +21,9 @@ a {
     margin: 0;
     color: black;
     background-color: #F0F2F6;
+}
+.fa-chart-line {
+    padding-right: 20px;
 }
 header{
     padding: 20px 20px 20px 20px;
@@ -70,14 +76,10 @@ nav a {
 .bouton_rechercher { 
     background-color: #0065FC;
     border-color: #0065FC;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 15px 15px 0px;
     color: white;
 }
-a[href="#hebergements"]:hover {
-    padding-top: 30px;
-    border-top: 2px solid #0065FC;
-}
-a[href="#activites"]:hover {
+.header-menu-link:hover {
     padding-top: 30px;
     border-top: 2px solid #0065FC;
 }
@@ -111,12 +113,12 @@ a[href="#activites"]:hover {
 }
 .section-hebergement {
     margin: 0;
-    padding: 0;
+    padding: 0 20px 0 20px;
     width: 65%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: rgb(224, 223, 223);
     border-radius: 10px;
 }
@@ -136,7 +138,7 @@ a[href="#activites"]:hover {
     float: left;
     width: 180px;
     height: 90px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 20px 20px 0 0;
     
 }
  @media screen and (min-width : 1200px) {
@@ -150,17 +152,24 @@ a[href="#activites"]:hover {
     float: left;
     width: 100px;
     height: 100px;
-    border-radius: 10px 0 0 10px;
+    border-radius: 20px 0 0 20px;
     
 }
 .section1 {
     background-color: white;
     border-radius: 20px;
+    padding: 0;
+    border: 1px solid rgb(224, 223, 223);
+    box-shadow: 2px 2px 2px 2px rgb(199, 199, 199);
 }
 .section2 {
     background-color: white;
     border-radius: 20px;
+    margin-left: 15px;
     width: 90%;
+    padding: 0;
+    border: 1px solid rgb(224, 223, 223);
+    box-shadow: 2px 2px 2px 2px rgb(199, 199, 199);
 }
 .section-hebergement-populaire {
     margin: 0;
@@ -185,6 +194,9 @@ a[href="#activites"]:hover {
     display: flex;
     align-items: center;
     height: 40px;
+}
+.filtre-item:hover {
+    background-color: #DEEBFF;
 }
 .filtre-title {
     margin-right: 20px;
@@ -216,17 +228,31 @@ input {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .photo3 {
     width: 200px;
     height: 250px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0;
 }
 footer {
     background-color: rgb(224, 223, 223);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
+}
+.a-propos,.nos-hergements,.assistance {
+    margin-right: 150px;
+}
+.a-propos {
+    margin-left: 50px;
+}
+.section3 {
+    padding: 0;
+    border: 1px solid rgb(224, 223, 223);
+    box-shadow: 2px 2px 2px 2px rgb(224, 223, 223);
+    border-radius: 20px;
+
 }
