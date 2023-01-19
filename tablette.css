@@ -17,24 +17,6 @@
     border-radius: 20px;
     width: 30%;
 }
-.photo {
-    display: block;
-    float: left;
-    width: 205px;
-    height: 110px;
-    
-}
-.photo2 {
-    display: block;
-    float: left;
-    width: 85px;
-    height: 100px;
-    
-}
-.photo3 {
-    width: 155px;
-    height: 200px;
-}
 .alignement {
     width: 100%;
 }

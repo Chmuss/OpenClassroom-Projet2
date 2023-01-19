@@ -89,7 +89,7 @@ header{
     display: none;
 }
 .section1 {
-    width: 92%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -97,22 +97,27 @@ header{
     
 }
 .section2 {
-    width: 93%;
+    width: 97%;
+    margin-left: 5px;
 }
 .section1 {
-    width: 97%;
+    width: 100%;
+}
+.section3 {
+    width: 100%;
 }
 .section-activites {
     flex-direction: column;
     justify-content: center;
 }
 .photo3 {
-    width: 100%;
-    height: 200px;
+    height: 150px;
 }
 .photo {
-    width: 97%;
+    margin: 0;
+    width: 100%;
     height: 150px;
+    object-fit : cover;
 }
 footer {
     background-color: rgb(224, 223, 223);
