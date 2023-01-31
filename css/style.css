@@ -170,7 +170,7 @@ nav a {
     padding: 4px;
     margin-bottom: 20px;
     border: 1px solid rgb(240, 238, 238);
-    box-shadow: 2px 2px 2px 2px rgb(240, 238, 238);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 .section2 {
     background-color: white;
@@ -178,7 +178,7 @@ nav a {
     width: 95%;
     padding: 4px;
     border: 1px solid rgb(240, 238, 238);
-    box-shadow: 2px 2px 2px 2px rgb(240, 238, 238);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 .section-hebergement-populaire {
     margin: 0;
@@ -197,7 +197,7 @@ nav a {
 }
 .filtre-item {
     margin-right: 50px;
-    border: 1px black solid;
+    border: 1px #D9D9D9 solid;
     border-radius: 20px;
     padding-left: 10px;
     padding-right: 10px;
@@ -266,7 +266,7 @@ footer {
     width: 20%;
     padding: 0;
     border: 1px solid rgb(240, 238, 238);
-    box-shadow: 2px 2px 2px 2px rgb(240, 238, 238);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
 
 }
