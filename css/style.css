@@ -8,7 +8,10 @@ a {
     color: black;
 }
 body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
     margin: 10px 20px 0px 20px;
+    max-width: 1440px;
 }
 .fa-solid {
     color: #0065FC;
@@ -49,12 +52,11 @@ header {
     justify-content: space-between;  
 }
 h1 {
-    font-family: 'Raleway', sans-serif;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 900;
 }
 h2 {
-    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -66,7 +68,7 @@ h3 {
     margin: 0;
 }
 h4 {
-    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
     font-size: 12px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -276,4 +278,7 @@ footer {
 }
 .decaler {
     padding: 10px;
+}
+.fa-star:nth-last-child(-n+1){
+    color: rgb(224, 223, 223);
 }
